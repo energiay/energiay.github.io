@@ -1,0 +1,35 @@
+﻿@font-face{
+	font-family:"Fira Sans Reg";
+	src: url(FiraSans-Regular.eot); /* for IE 6-8 */
+	src: 	local("☺"), 
+			url(FiraSans-Regular.ttf) format(truetype), /* for firefox3, Safari */
+			url(FiraSans-Regular.woff) format("woff"); /* for IE9 */
+}
+
+@font-face{
+	font-family:"Fira Sans Bold";
+	src: url(FiraSans-Bold.eot); /* for IE 6-8 */
+	src: 	local("☺"), 
+			url(FiraSans-Bold.ttf) format(truetype), /* for firefox3, Safari */
+			url(FiraSans-Bold.woff) format("woff"); /* for IE9 */
+}
+
+@font-face{
+	font-family:"Fira Sans Light";
+	src: url(FiraSans-Light.eot); /* for IE 6-8 */
+	src: 	local("☺"), 
+			url(FiraSans-Light.ttf) format(truetype), /* for firefox3, Safari */
+			url(FiraSans-Light.woff) format("woff"); /* for IE9 */
+}
+
+body {
+	font-size: 14px;
+	font-family: "Fira Sans Reg", sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width:1024px;
+	margin: 0px auto;
+}
