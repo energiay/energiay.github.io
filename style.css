@@ -78,7 +78,8 @@ nav ul li a{
 }
 
 .contact{
-	float:right;
+	float:left;
+	margin-left:70px;
 	margin-top:43px;
 	border: 1px solid blue;
 }
