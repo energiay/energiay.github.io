@@ -58,7 +58,7 @@ nav ul li{
 	float:left;
 	list-style:none;
 	padding:0px 31px;
-	-border: 1px solid blue;
+	border: 1px solid blue;
 }
 
 nav li:first-child{
@@ -80,7 +80,7 @@ nav ul li a{
 .contact{
 	float:right;
 	margin-top:43px;
-	-border: 1px solid blue;
+	border: 1px solid blue;
 }
 
 .lineHead{
