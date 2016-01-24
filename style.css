@@ -3,6 +3,12 @@
 }
 
 
+h1 {
+	font-size:45px;
+	font-weight:300;
+}
+
+
 .container {
 	width:1024;
 	margin: 0px auto;
@@ -102,6 +108,9 @@ nav ul li a{
 .clear{
 	clear:both;
 }
+
+
+
 
 
 
