@@ -1,5 +1,7 @@
 ﻿body{
 	font-family: 'Fira Sans', sans-serif;
+	font-weight:300;
+	font-size:14px;
 }
 
 
@@ -59,9 +61,10 @@ h1 {
 }
 
 nav{
+	position:absolut;
 	float:left;
 	margin-top:70px;
-	margin-left:2.5%;
+	margin-left:3%;
 }
 
 nav ul li{
@@ -87,11 +90,15 @@ nav ul li a{
 	text-decoration:none;
 }
 
+nav ul li a:hover{
+	color:#979797;
+}
+
 .contact{
 	float:right;
 	margin-top:43px;
 	-border: 1px solid blue;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 .lineHead{
