@@ -133,14 +133,18 @@ nav ul li a:hover{
 
 .all{
 	position:relative ;
+	width:calc(100% + 5px);
 	height:187px;
-	border: 1px solid blue;
+	-border: 1px solid blue;
+	outline: 1px solid #666;
+	overflow:hidden;
 }
 
 .borderSkils{
 	float:left;
 	
-	width:230px;
+	width:calc((100%/4) - 18px);
+	margin-left:20px;
 	height:181px;
 	border: 1px solid #dedede;
 	
@@ -151,7 +155,7 @@ nav ul li a:hover{
 	-o-     box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 	-khtml- box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 }
-
+/*
 .borderSkils:nth-child(1){
 	left:0;
 }
@@ -169,7 +173,7 @@ nav ul li a:hover{
 .borderSkils:nth-child(4){
 	right:0;
 }
-
+*/
 .borderSkils:first-child{
 	margin-left:0px;
 }
