@@ -105,6 +105,7 @@ nav ul li a:hover{
 
 .tel{
 	float:right;
+	list-style:none;
 }
 
 .email{
@@ -235,6 +236,17 @@ nav ul li a:hover{
 	line-height:35px;
 }
 
+.bannerText{
+	display:inline-block;
+	position:absolute;
+	top:260px;
+	color:white;
+	margin-left:550px;
+}
+.bannerText .bannerTitle{
+	font-size:100px;
+	margin-left:-23px;
+}
 
 
 
