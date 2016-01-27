@@ -281,9 +281,27 @@ nav ul li a:hover{
 		
 }
 
+.AllignComposition{
+	margin: 35px auto;
+	width:590px;
+	font-weight:400;
+}
 
+.AllignComposition .composition{
+	text-align:center;
+}
 
+.containerBannerHobby{
+	overflow:hidden;
+}
 
+.boast{
+	margin-top:20px;
+}
+
+.collage{
+	margin-top:40px;
+}
 
 
 
