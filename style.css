@@ -257,7 +257,7 @@ nav ul li a:hover{
 }
 
 .centerP{
-	margin: 50px auto;
+	margin: 0px auto;
 	-border: 1px solid red;
 	width:800px;
 }
