@@ -303,6 +303,25 @@ nav ul li a:hover{
 	margin-top:40px;
 }
 
+.ax{
+	float:left;
+}
+
+.textConstructor{
+	float:left;
+	margin-left:10px;
+	margin-top:29px;
+	font-weight:400;
+}
+
+.containerBady{
+	margin: 35px auto;
+	width:450px;
+	font-weight:400;
+	overflow:hidden;
+}
+
+
 
 
 
