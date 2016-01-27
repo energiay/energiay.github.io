@@ -160,7 +160,7 @@ nav ul li a:hover{
 
 .borderSkils{
 	float:left;
-	
+
 	width:calc((100%/4) - 18px);
 	margin-left:20px;
 	height:181px;
@@ -198,7 +198,6 @@ nav ul li a:hover{
 	margin-top:27px;
 	margin-left:41px;
 	line-height:15px;
-	
 }
 
 .borderSkils .title{
@@ -246,9 +245,30 @@ nav ul li a:hover{
 	color:white;
 	margin-left:550px;
 }
+
 .bannerText .bannerTitle{
 	font-size:100px;
 	margin-left:-23px;
+	font-weight:700;
+}
+
+.bannerTextPortfolio{
+	display:inline-block;
+	position:absolute;
+	top:50px;
+	
+	font-size:150px;
+	font-weight:700;
+	color:black;
+	margin-left:110px;
+	
+}
+
+.contentPortfolio{
+		margin-top:40px;
+		background: url(img/contentPortfolio.jpg) repeat-x #fafafa;
+		height:650px;
+		
 }
 
 
