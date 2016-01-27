@@ -256,15 +256,21 @@ nav ul li a:hover{
 	font-weight:700;
 }
 
+.centerP{
+	margin: 50px auto;
+	-border: 1px solid red;
+	width:800px;
+}
+
 .bannerTextPortfolio{
 	display:inline-block;
 	position:absolute;
-	top:50px;
+	top:100px;
 	
 	font-size:150px;
 	font-weight:700;
 	color:black;
-	margin-left:80px;
+	-border: 1px solid black;
 	
 }
 
