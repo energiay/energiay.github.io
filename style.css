@@ -220,7 +220,7 @@ nav ul li a:hover{
 	overflow:hidden;
 	height:450px;
 	margin-top:27px;
-	margin-left:41px;
+	/*margin-left:41px;*/
 }
 
 .SkilsOfBank{
@@ -228,7 +228,7 @@ nav ul li a:hover{
 	float:left;
 	width:420px;
 	margin-left:41px;
-	margin-right:20px;
+	margin-top:27px;
 	line-height:15px;
 	/*border:1px solid red;*/
 }
