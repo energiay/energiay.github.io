@@ -304,18 +304,19 @@ nav ul li a:hover{
 }
 
 .ax{
-	float:left;
+	/*float:left;*/
+	margin: 0px 135px;
 }
 
 .textConstructor{
-	float:left;
+	/*float:left;*/
 	margin-left:10px;
 	margin-top:29px;
 	font-weight:400;
 }
 
 .containerBady{
-	margin: 35px auto;
+	margin: 200px auto;
 	width:450px;
 	font-weight:400;
 	overflow:hidden;
