@@ -1,6 +1,6 @@
 ﻿body{
 	font-family: 'Fira Sans', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	font-size:14px;
 	background-color:#fafafa;
 }
@@ -103,7 +103,7 @@ nav ul li a:hover{
 	float:right;
 	margin-top:43px;
 	-border: 1px solid #000;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .tel{
@@ -228,11 +228,11 @@ nav ul li a:hover{
 .SkilsOfBank{
 	display:inline-block;
 	float:left;
-	width:420px;
+	width:435px;
 	margin-left:41px;
 	margin-top:27px;
 	line-height:15px;
-	/*border:1px solid red;*/
+	-border:1px solid red;
 }
 
 .SkilsOfBank .titleBank{
