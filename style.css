@@ -16,7 +16,6 @@ h1 {
 	min-width:970px;
 	max-width:1024px;
 	margin: 0px auto;
-	-border: 1px solid red;
 }
 
 .logo{
@@ -291,10 +290,6 @@ nav ul li a:hover{
 	text-align:center;
 }
 
-.containerBannerHobby{
-	overflow:hidden;
-}
-
 .boast{
 	margin-top:20px;
 }
@@ -320,6 +315,58 @@ nav ul li a:hover{
 	width:450px;
 	font-weight:400;
 	overflow:hidden;
+}
+
+.containerBannerHobby .imgTitle{
+	font-size:22px;
+	font-weight:700;
+	line-height:35px;
+}
+
+.containerBannerHobby p{
+	display:inline-block;
+}
+
+.containerBannerHobby{
+	overflow:hidden;
+	-border: 1px solid blue;
+}
+
+.ImgText{
+	float:left;
+	text-align:center;
+	-border: 1px solid blue;
+	width:calc((100%/3) - 17px);
+}
+
+.ImgText:last-child{
+	float:right;
+	text-align:right;
+}
+.ImgText:first-child{
+	float:left;
+	text-align:left;
+}
+
+.ImgText:nth-child(2){
+	margin-left:-40px;
+}
+
+.img01Text{
+	width:216px;
+	text-align:center;
+}
+.img02Text{
+	width:369px;
+	text-align:center;
+}
+.img03Text{
+	width:302px;
+	text-align:center;
+}
+
+.image{
+	
 }
 
 
