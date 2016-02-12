@@ -64,7 +64,7 @@ nav{
 	position: absolute;
 	float:left;
 	margin-top:70px;
-	margin-left:5%;
+	margin-left:calc(40%/2);
 }
 
 nav ul li{
@@ -399,7 +399,8 @@ nav ul li a:hover{
 
 	overflow: hidden;
 
-	width: 1024px;
+	min-width: 970px;
+	max-width: 1024px;
 	height: 529px;
 	margin: 0 auto;
 }
