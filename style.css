@@ -61,7 +61,7 @@ h1 {
 }
 
 nav{
-	position:absolut;
+	-position: absolute;
 	float:left;
 	margin-top:70px;
 	margin-left:5%;
@@ -121,11 +121,11 @@ nav ul li a:hover{
 	background:#eaebec;
 	
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-moz-   box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-ms-    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-o-     box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-khtml- box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-o-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-khtml-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 }
 
 .linefooter{
@@ -134,11 +134,11 @@ nav ul li a:hover{
 	background:#eaebec;
 	
 	box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-moz-   box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-ms-    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-o-     box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
-	-khtml- box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-o-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+	-khtml-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
 }
 
 .clear{
@@ -171,11 +171,11 @@ nav ul li a:hover{
 	/*background-color:white;*/
 	
 	box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-moz-   box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-ms-    box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-o-     box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-khtml- box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-ms-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-o-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-khtml-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 }
 
 .borderSkilsTheRest{	
@@ -186,11 +186,11 @@ nav ul li a:hover{
 	/*background-color:white;*/
 	
 	box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-moz-   box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-ms-    box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-o-     box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-khtml- box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-ms-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-o-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	-khtml-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
 }
 
 .borderSkils:first-child{
@@ -394,3 +394,93 @@ nav ul li a:hover{
 
 
 
+.slider__images {
+	position: relative;
+
+	overflow: hidden;
+
+	width: 1024px;
+	height: 529px;
+	margin: 0 auto;
+}
+
+.slider__images-wrap {
+	font-size: 0;
+
+	height: 529px;
+
+	white-space: nowrap;
+
+	transition: margin .5s ease-out;
+}
+
+.slider__navigation {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+.slider__pager {
+	margin-top: 3px;
+
+	text-decoration: none;
+}
+
+.slider__pager_previous {
+	float: left;
+
+	margin-right: 5px;
+}
+
+.slider__pager_next {
+	float: left;
+
+	margin-right: 5px;
+}
+
+.slider a:link,
+.slider a:visited {
+	color: #333333;
+}
+
+.slider a:hover,
+.slider a:active {
+	color: #9e2020;
+}
+
+.slider__pagination {
+	float: left;
+	margin-left: calc(83%/2);
+	margin-bottom: 50px;
+	-margin: 6px 0 0;
+
+	list-style: none;
+}
+
+.slider__pagination li {
+	float: left;
+
+	margin: 0 1px;
+}
+
+.slider__pagination li a {
+	display: block;
+	float: left;
+	overflow: hidden;
+
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+
+	background-image: url('img/pagination.png');
+	background-position: 0 0;
+}
+
+.slider__pagination li a.active,
+.slider__pagination li a:hover.active {
+	background-position: 0 -13px;
+}
+
+.slider__pagination li a:hover {
+	background-position: 0 -26px;
+}
