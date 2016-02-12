@@ -61,7 +61,7 @@ h1 {
 }
 
 nav{
-	-position: absolute;
+	position: absolute;
 	float:left;
 	margin-top:70px;
 	margin-left:5%;
