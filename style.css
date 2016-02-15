@@ -11,6 +11,11 @@ h1 {
 	font-weight:300;
 }
 
+.cut {
+	min-width:970px;
+	max-width:1024px;
+	margin: 0px auto;
+}
 
 .container {
 	min-width:970px;
