@@ -22,6 +22,7 @@ h1 {
 	min-width:970px;
 	max-width:1024px;
 	margin: 0px auto;
+	-border:1px solid red;
 }
 
 .logo{
@@ -157,7 +158,7 @@ nav ul li a:hover{
 	-border: 1px solid blue;
 	-outline: 1px solid #666;
 	overflow:hidden;
-	margin-top:35px;
+	-margin-top:35px;
 	
 }
 
@@ -456,7 +457,7 @@ nav ul li a:hover{
 .slider__pagination {
 	float: left;
 	margin-left: calc(83%/2);
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	-margin: 6px 0 0;
 
 	list-style: none;
