@@ -154,12 +154,12 @@ nav ul li a:hover{
 .all{
 	position:relative ;
 	width:calc(100% + 5px);
-	height:187px;
+	height:193px;
 	-border: 1px solid blue;
 	-outline: 1px solid #666;
 	overflow:hidden;
 	-margin-top:35px;
-	
+	padding-left:3px;
 }
 
 .containerBanner{
@@ -170,18 +170,19 @@ nav ul li a:hover{
 .borderSkils{
 	float:left;
 
+	margin-top: 7px;
 	width:calc((100%/4) - 18px);
 	margin-left:20px;
 	height:181px;
 	border: 1px solid #dedede;
 	/*background-color:white;*/
 	
-	box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-moz-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-webkit-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-ms-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-o-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-khtml-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-ms-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-khtml-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
 }
 
 .borderSkilsTheRest{	
@@ -191,12 +192,12 @@ nav ul li a:hover{
 	border: 1px solid #dedede;
 	/*background-color:white;*/
 	
-	box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-moz-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-webkit-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-ms-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-o-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-	-khtml-box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-ms-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-o-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+	-khtml-box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
 }
 
 .borderSkils:first-child{
