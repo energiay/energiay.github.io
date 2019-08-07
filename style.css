@@ -14,9 +14,12 @@ h1 {
 h2 {
 	margin: 0;
 	padding: 0;
-	margin-top: 27px;
+	font-size: 24px;
+}
+
+h2.old_adaptive {
 	margin-left: 27px;
-	font-size: 27px;
+	margin-top: 27px;
 }
 
 .cut {
@@ -30,7 +33,6 @@ h2 {
 	min-width:970px;
 	max-width:1024px;
 	margin: 0px auto;
-	-border:1px solid red;
 }
 
 .logo{
@@ -194,7 +196,7 @@ nav ul li a:hover{
 }
 
 .borderSkilsTheRest{	
-	width:100%;
+	/*width:100%;*/
 	margin-top:20px;
 	/*height:300px;*/
 	border: 1px solid #dedede;
@@ -247,7 +249,13 @@ nav ul li a:hover{
 	margin-left:41px;
 	margin-top:27px;
 	line-height:15px;
-	-border:1px solid red;
+}
+
+.title {
+	font-size:22px;
+	font-weight:700;
+	line-height:35px;
+	color: #444;
 }
 
 .SkilsOfBank .titleBank{
@@ -500,3 +508,15 @@ nav ul li a:hover{
 .slider__pagination li a:hover {
 	background-position: 0 -26px;
 }
+
+
+.container_skills {
+	padding: 27px;
+	line-height: 23px;
+	font-weight: 700;
+}
+
+.for_search {
+	display: none;
+}
+
