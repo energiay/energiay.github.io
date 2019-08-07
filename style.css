@@ -11,6 +11,14 @@ h1 {
 	font-weight:300;
 }
 
+h2 {
+	margin: 0;
+	padding: 0;
+	margin-top: 27px;
+	margin-left: 27px;
+	font-size: 27px;
+}
+
 .cut {
 	min-width:970px;
 	max-width:1024px;
@@ -188,7 +196,7 @@ nav ul li a:hover{
 .borderSkilsTheRest{	
 	width:100%;
 	margin-top:20px;
-	height:300px;
+	/*height:300px;*/
 	border: 1px solid #dedede;
 	/*background-color:white;*/
 	
@@ -227,7 +235,7 @@ nav ul li a:hover{
 
 .borderSkilsTheRest{
 	overflow:hidden;
-	height:410px;
+	/*height:410px;*/
 	margin-top:27px;
 	/*margin-left:41px;*/
 }
@@ -246,6 +254,7 @@ nav ul li a:hover{
 	font-size:22px;
 	font-weight:700;
 	line-height:35px;
+	color: #444;
 }
 
 .bannerText{
